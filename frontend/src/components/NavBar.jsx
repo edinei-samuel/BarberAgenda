@@ -9,7 +9,7 @@ const NavBar = () => {
   const [token, setToken] = React.useState(true);
 
   return (
-    <div className='flex justify-between items-center text-sm py-4 mb-5 border-b border-b-amber-500'>
+    <div id='navbar' className='text-white flex justify-between items-center text-sm py-4 mb-5 border-b border-b-amber-500'>
       <img
         className='w-44 cursor-pointer'
         src={assets.logo}
@@ -22,7 +22,7 @@ const NavBar = () => {
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
 
-        <NavLink to="/todos">
+        <NavLink to="/barbers">
           <li className='py-1 hover:text-primary'>Todos</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>

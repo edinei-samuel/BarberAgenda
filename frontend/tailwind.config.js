@@ -11,7 +11,10 @@ export default {
         'primary-dark': "#9c7e1f",
         'secondary': "#111111",
         'background': "#F8F8F8",
-      }
+      },
+      gridTemplateColumns: {
+        'auto': 'repeat(auto-fill, minmax(200px, 1fr))',
+      },
     },
   },
   plugins: [],
